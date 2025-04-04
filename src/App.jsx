@@ -1,5 +1,6 @@
 import React from "react";
 import AcceptReject from "./components/AcceptReject";
+import CustomDistWalker from "./components/CustomDistWalker";
 
 const App = () => {
   return (
@@ -8,6 +9,10 @@ const App = () => {
       <div className="canvas-container">
         <p>Accept-Reject Distribution</p>
         <AcceptReject />
+      </div>
+      <div className="canvas-container">
+        <p>Random walk that follows quadratic distribution</p>
+        <CustomDistWalker />
       </div>
     </div>
   );
